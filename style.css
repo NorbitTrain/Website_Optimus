@@ -15,7 +15,7 @@ html {
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("image/fotolaginugas.jpg");
+    url("fotolaginugas.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -336,4 +336,5 @@ footer p:nth-child(2) {
 .foot {
   color: aliceblue;
   font-weight: bold;
+
 }
