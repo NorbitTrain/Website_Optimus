@@ -1,0 +1,339 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* menu utama */
+#menu {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("image/fotolaginugas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+}
+
+.logo {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.ul-nav {
+  flex: 2;
+  position: absolute;
+  left: 800px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.li-nav {
+  padding: 0 10px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: #a7e399;
+}
+
+nav ul li a:hover {
+  color: #f6ff99;
+}
+/* navbar end */
+/* teks menu */
+.content {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  margin: 10px;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.content h4 {
+  margin-bottom: 10px 0;
+}
+
+.content h3 {
+  margin-top: 25px 10px;
+}
+
+span {
+  color: #a7e399;
+}
+/* teks menu end */
+
+/* about */
+
+.about {
+  background-color: #27391c;
+}
+
+.about_container {
+  display: flex;
+  gap: 50px;
+}
+
+.foto-about {
+  position: relative;
+  left: 100px;
+  border-radius: 20px;
+  position: relative;
+  margin: 175px 100px;
+  box-shadow: 0px 5px 20px;
+}
+
+.about-teks {
+  display: flex;
+  position: relative;
+  top: 185px;
+  max-width: 700px;
+  color: azure;
+  left: 60px;
+  letter-spacing: 0.8px;
+  word-spacing: 1px;
+}
+
+.biodata {
+  position: relative;
+  top: 210px;
+  left: 60px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.ul-bio {
+  list-style-type: none;
+  color: azure;
+}
+
+.li-bio {
+  display: grid;
+  grid-template-columns: 200px auto;
+  margin: 5px;
+}
+
+.label {
+  color: #fff;
+  font-weight: bold;
+}
+
+.value {
+  color: #fff;
+  margin-left: 25px;
+}
+
+/* About end */
+
+/* Edu */
+#edu {
+  height: 100vh;
+}
+
+.edu {
+  height: 100vh;
+  padding: 180px;
+  background-color: #395229;
+}
+
+.edu-head {
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+
+.ul-edu {
+  list-style-type: none;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ul-edu article {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #a7e399;
+  padding: 25px;
+  border-radius: 10px;
+  color: #191919;
+}
+
+/* edu end */
+
+/* exp */
+#exp {
+  height: 100vh;
+  background-color: #27391c;
+}
+
+.head-exp {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+  text-align: center;
+  top: 180px;
+}
+
+.cont-exp {
+  position: relative;
+  top: 230px;
+  height: 50vh;
+}
+
+.wrapper {
+  position: relative;
+  margin: 50px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  height: 100px;
+}
+
+.text-exp {
+  background-color: #a7e399;
+  justify-content: space-between;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+}
+
+.button-exp {
+  position: relative;
+  top: 1px;
+  background: #27391c;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.button-exp:hover {
+  background-color: transparent;
+  border: 2px solid #27391c;
+  cursor: pointer;
+}
+
+/* exp end */
+
+.kontak {
+  width: 100%;
+  background: #191919;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kontak p {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.kontak .button-con {
+  background: #27391c;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.kontak .button-con:hover {
+  background-color: transparent;
+  border: 2px solid #27391c;
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p:nth-child(2) {
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  width: 500px;
+  line-height: 26px;
+}
+
+.sosial {
+  display: flex;
+}
+
+.sosial a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #27391c;
+  border-radius: 50%;
+  margin: 22px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.sosial a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.end {
+  color: #27391c;
+  position: absolute;
+  bottom: 35px;
+}
+
+.foot {
+  color: aliceblue;
+  font-weight: bold;
+}
